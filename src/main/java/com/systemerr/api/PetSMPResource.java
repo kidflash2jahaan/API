@@ -10,7 +10,11 @@ public class PetSMPResource {
 
     @GetMapping("/petsmp/howtoplay")
     public String howToPlay() {
-        return "This is howtoplay\ntesting";
+        return """
+                - The PetSMP revolves around pets, animals you can find and tame!
+                - These animals grant you Special Effects
+                - Pets have a 10% spawn rate. That means for every 10 pets that are attempted to spawn, only one of them will spawn!
+                - Whereupon moving 10 blocks away from the player, a Pet will teleport to your previously penultimate block. Essentially, moving 10 blocks away makes a pet teleport to you.""";
     }
 
 //    @GetMapping("/petsmp/pets/{username}")
