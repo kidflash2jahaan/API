@@ -17,6 +17,11 @@ public class PetSMPResource {
                 - Whereupon moving 10 blocks away from the player, a Pet will teleport to your previously penultimate block. Essentially, moving 10 blocks away makes a pet teleport to you.""";
     }
 
+    @GetMapping("/petsmp/partnerships")
+    public String partnerships() {
+        return "https://buy.stripe.com/fZe28Gek01B10cU6oo";
+    }
+
 //    @GetMapping("/petsmp/pets/{username}")
 //    public String getPets(@PathVariable String username) {
 //        return Objects.requireNonNullElse(pets.get(username), "This player does not have any pets!");
